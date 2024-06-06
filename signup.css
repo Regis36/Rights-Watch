@@ -1,0 +1,67 @@
+.Register{
+    width: 100vw;
+    height: 100vh; 
+    background-color: #1775ee; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RegisterBox{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    
+}
+
+.Register-Top{
+    background-color: white;
+    font-family: 'Rubik Puddles' , serif;
+    color: #1775ee;
+}
+
+.Register-Bottom {
+    background-color: white;
+}
+
+.Signup-title { 
+    font-size: 24px;
+}
+
+.SignupButtons { 
+    border-radius:  12px;
+    font-size: 20px;
+    background-color: #1775ee ; 
+    color: white;
+}
+
+.SignupButtons:Hover { 
+    background-color: #AEF359 ;
+}
+
+.Title { 
+    font-family: 'Rubik Puddles' , serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.Register-input{
+    height: 20px;
+    border-radius: 10px; 
+    border: 1px solid gray; 
+    font-size: 18px;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.Interests{
+    font-size: 20px;
+}
+
+/* .image{ 
+    height: 20vh;
+    width: 20vw;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} */

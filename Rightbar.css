@@ -1,0 +1,49 @@
+.rightbar{
+    flex:2.5;
+    height: calc(100vh - 50px);
+    overflow-y: scroll ;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68); 
+    margin: 30px 0;
+}
+
+.rightbarWrapper{
+   padding: 5px;
+    
+}
+
+.trendingContainer{
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.friendsContainer{
+    
+    border-radius: 10px;
+}
+
+.rightTop{
+    color: #1877f2;
+    font-family: "Rubik Puddles" , serif;
+    font-size: 20px;
+}
+
+.rightTop2{
+    font-family: "Rubik Puddles" , serif ;
+    color: #1877f2;
+    font-size: 20px;
+
+}
+
+.moreButton{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: none;
+    width: 150px;
+    height: 25px;
+}
+
+.sidebarFriend:hover{ 
+    background-color: #F2F2F2;
+}

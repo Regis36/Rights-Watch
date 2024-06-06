@@ -1,0 +1,77 @@
+.sidebar{
+    flex:2.5; 
+    height: calc(100vh - 50px);
+    overflow-y: scroll ;
+}
+
+.sidebarHr::-webkit-scrollbar{
+    width: 5px;
+}
+.sidebarHr::-webkit-scrollbar-track{
+    background-color: whitesmoke
+}
+.sidebarHr::-webkit-scrollbar-thumb{
+    background-color: gray
+}
+.sidebarWrapper{
+    padding: 20px; 
+}
+
+.sidebarList { 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebarListItem { 
+    display: flex; 
+    align-items: center ;
+    margin-bottom: 20px;
+}
+
+.sidebarListItem:hover {
+    background-color: #F2f2F2;
+}
+
+.sidebarIcon {
+    margin-right: 15px;
+
+}
+
+.sidebarButton{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.sidebarHr{
+    margin: 20px 0;
+}
+
+.sidebarFriendList{
+    padding: 0;
+    margin:0; 
+    list-style: none; 
+}
+
+.sidebarFriend{
+    display: flex; 
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sidebarFriend :hover {
+    background-color: #F2F2F2;
+}
+.sidebarFriendImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.Following{ 
+    font-family: "Rubik Puddles" , serif;
+    color: #1877f2;
+}

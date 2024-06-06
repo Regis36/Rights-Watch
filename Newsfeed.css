@@ -1,0 +1,20 @@
+.newsfeed{
+    flex: 5.5;
+    
+}
+
+.newsfeedWrapper{
+    padding: 20px; 
+    overflow-y: scroll ;
+}
+
+.newsfeedWrapper::-webkit-scrollbar{
+    width: 5px;
+}
+.newsfeedWrapper::-webkit-scrollbar-track{
+    background-color: whitesmoke
+}
+.newsfeedWrapper::-webkit-scrollbar-thumb{
+    background-color: gray
+}
+
