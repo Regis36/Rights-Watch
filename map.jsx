@@ -3,9 +3,10 @@ import { MapContainer, TileLayer, Marker, Popup,GeoJSON } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'; // Ensure Leaflet's CSS is included
 import Countries from "../Data/countries"
 import "./map.css"; 
+import Topbar from '../Topbar/tobar';
 
 
-class VectorMap {
+class VectorMap extends Component {
 // export default function VectorMap () {
     
     state = {} ; 
@@ -59,7 +60,9 @@ class VectorMap {
     render(){
         return(
             <div className='mapContainer'>
-                <MapContainer center={[51.505, -0.09]} zoom={2} style={{ height: '75vh', width: '95%', paddingLeft:'20px' }}>
+                <Topbar/>
+                <h1> HUMAN RIGHT TREATY RATIFICATIONS BY COUNTRY</h1>
+                <MapContainer center={[51.505, -0.09]} zoom={3.4} style={{ height: '75vh', width: '90%', paddingLeft:'20px' }}>
                     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                     {/* <Marker position={[51.505, -0.09]}>
                         <Popup>
@@ -70,6 +73,7 @@ class VectorMap {
                             onEachFeature = {this.onEachState}
                         />
                 </MapContainer>
+                <h1></h1>
             </div>
             
         )
@@ -78,5 +82,7 @@ class VectorMap {
         
      
 };
+
+
 
 export default VectorMap
